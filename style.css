@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+nav{
+    border-bottom: 1px solid white;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+.switch > button > img{
+    width: 35px;
+    height: 35px;
+}
+.switch > button{
+    border: none;
+    background-color: black;
+}
+.logo > a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.links > a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+.links > a:hover{
+    text-decoration: underline;
+}
+.logo{
+    color: white;
+}
+.content{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    text-align: center;
+}
+.content > h2{
+    color: white;
+}
+.content > h3{
+    color: white;
+}
+.content > a{
+    color: white;
+    text-decoration: none;
+}
+.content > a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+.modal > nav > .logo > a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.modal > nav > .links > a:hover{
+    text-decoration: underline;
+}
+.modal > nav > .links > a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+.modal > nav{
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+.modal > nav > .switch > button{
+    background-color: white;
+}
+.modal{
+    transition: all 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -285px;
+    width: 0;
+    height: 100vh;
+    background-color: white;
+    transform: scale(0);
+}
+.visible{
+    width: 100vw;
+    transform: scale(1);
+}
+.modal > .content{
+    margin-top: 800px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height:566px;
+    background-color: rgb(255, 255, 255);
+}
+.modal > .content > h2{
+    color: black;
+}
+.modal > .content > h3 {
+    color: black;
+}
+.modal > .content > a{
+    color: black;
+    text-decoration: none;
+}
+.modal > .content > a:hover{
+    text-decoration: underline;
+}
